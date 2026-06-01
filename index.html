@@ -80,6 +80,35 @@ footer {
     padding: 20px;
     color: #777;
 }
+
+.note-card {
+background: linear-gradient(135deg, #ffffff, #f8fafc);
+border: 1px solid #e2e8f0;
+border-radius: 15px;
+padding: 25px;
+text-align: center;
+transition: 0.3s;
+}
+
+.note-card:hover {
+transform: translateY(-3px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.note-link {
+display: inline-block;
+margin-top: 15px;
+padding: 12px 24px;
+background: #000;
+color: #fff;
+text-decoration: none;
+border-radius: 999px;
+font-weight: bold;
+}
+
+.note-link:hover {
+opacity: 0.9;
+}
 </style>
 </head>
 
@@ -97,7 +126,7 @@ footer {
 
         <img src="profile.jpg" alt="プロフィール画像">
 
-        <h3>悪夢ちゃん（25歳）</h3>
+        <h3>悪夢ちゃん</h3>
 
         <p>
             こんにちは、悪夢ちゃんです。
@@ -148,6 +177,27 @@ footer {
 
         <p>9:00〜24:00</p>
         <p>時間外はご相談ください。</p>
+    </div>
+
+    <div class="card note-card">
+        <h2>📖 noteで活動記録を発信しています</h2>
+    
+        <p>
+            傾聴について学んだことや、
+            日々感じたことをnoteに綴っています。
+        </p>
+        
+        <p>
+            よろしければぜひご覧ください。
+        </p>
+        
+        <a
+            class="note-link"
+            href="ここにnoteのURL"
+            target="_blank"
+            rel="noopener noreferrer">
+            noteを読む
+        </a>
     </div>
 
     <div class="card" style="text-align:center;">
